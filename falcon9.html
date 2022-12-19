@@ -10,6 +10,8 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
     <title>OneBitX - Falcon 9</title>
@@ -64,7 +66,11 @@
         </header>
       </div>
 
-      <div class="container text-center titleContent">
+      <div
+        class="container text-center titleContent"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
         <p class="h1 titleFalcon9">FALCON 9</p>
         <p class="h3 subtitleFalcon9">
           PRIMEIRA CLASSE DE FOGUETES DE ORBITA CAPAZ DE VOLTAR
@@ -75,23 +81,43 @@
     <div class="container-fluid numbers">
       <div class="row text-center">
         <div class="col-sm col1">
-          <p class="h1 titleNumb">126</p>
-          <p class="subTitleNUmb">LANÇAMENTOS TOTAIS</p>
+          <p class="h1 titleNumb" data-aos="flip-up" data-aos-duration="1000">
+            126
+          </p>
+          <p class="subTitleNUmb" data-aos="flip-up" data-aos-duration="1200">
+            LANÇAMENTOS TOTAIS
+          </p>
         </div>
         <div class="col">
-          <p class="h1 titleNumb">86</p>
-          <p class="subTitleNUmb">DESEMBARQUES TOTAIS</p>
+          <p class="h1 titleNumb" data-aos="flip-left" data-aos-duration="1000">
+            86
+          </p>
+          <p class="subTitleNUmb" data-aos="flip-left" data-aos-duration="1250">
+            DESEMBARQUES TOTAIS
+          </p>
         </div>
         <div class="col-sm col3">
-          <p class="h1 titleNumb">68</p>
-          <p class="subTitleNUmb">FOGUETES RECUPERADOS</p>
+          <p
+            class="h1 titleNumb"
+            data-aos="flip-right"
+            data-aos-duration="1000"
+          >
+            68
+          </p>
+          <p
+            class="subTitleNUmb"
+            data-aos="flip-right"
+            data-aos-duration="1300"
+          >
+            FOGUETES RECUPERADOS
+          </p>
         </div>
       </div>
     </div>
 
     <div class="container-fluid container00 container06">
       <div class="container containerFalcon9Desc">
-        <p class="falcon9Desc">
+        <p class="falcon9Desc" data-aos="fade-right" data-aos-duration="1500">
           O Falcon 9 é um foguete reutilizável de dois estágios projetados e
           fabricado pela SpaceX para o transporte confiável e seguro de pessoas
           e cargas úteis para a órbita da Terra e além. Falcon 9 é o primeiro
@@ -280,7 +306,12 @@
     </div>
 
     <div class="container-fluid container00 container07">
-      <div class="container" id="overViewPosition">
+      <div
+        class="container"
+        id="overViewPosition"
+        data-aos="fade-down"
+        data-aos-duration="1500"
+      >
         <p class="subTitleOverview">FALCON 9</p>
         <p class="h3 titleOverview">MERLIN</p>
         <p>
@@ -445,14 +476,24 @@
     </div>
 
     <div class="container-fluid text-center downloadDesc">
-      <p>
+      <p data-aos="fade-right" data-aos-duration="1200">
         Para mais informações sobre os serviços entre em contato com
-        <a href=""> deboran.rosa@gmail.com </a>
+        <a href="" class="emailDBR"> deboran.rosa@gmail.com </a>
       </p>
-      <button type="button" class="btn btn-outline-light p-3">
+      <button
+        type="button"
+        class="btn btn-outline-light p-3"
+        data-aos="flip-left"
+        data-aos-duration="1000"
+      >
         GUIA DO USUÁRIO
       </button>
-      <button type="button" class="btn btn-outline-light p-3">
+      <button
+        type="button"
+        class="btn btn-outline-light p-3"
+        data-aos="flip-up"
+        data-aos-duration="1300"
+      >
         CAPACIDADES E SERVIÇOS
       </button>
     </div>
@@ -469,5 +510,9 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

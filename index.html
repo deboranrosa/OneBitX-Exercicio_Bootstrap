@@ -12,6 +12,7 @@
     />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>OneBitX - Home</title>
   </head>
   <body>
@@ -64,7 +65,11 @@
         </header>
       </div>
 
-      <div class="container titlePadding">
+      <div
+        class="container titlePadding"
+        data-aos="fade-up"
+        data-aos-duration="1500"
+      >
         <p class="h5" id="launchComing">LANÇAMENTO A CAMINHO</p>
 
         <p class="h1 mediumTitle">MISSÃO EQUIPE-3</p>
@@ -84,7 +89,11 @@
     </div>
 
     <div class="container-fluid container00 container02">
-      <div class="container titlePadding">
+      <div
+        class="container titlePadding"
+        data-aos="fade-right"
+        data-aos-duration="1500"
+      >
         <p class="h5" id="launchComing">MISSÃO CONCLUIDA</p>
 
         <p class="h1 shortTitle">MISSÃO EQUIPE-2 RETORNOU PARA A TERRA</p>
@@ -96,7 +105,11 @@
     </div>
 
     <div class="container-fluid container00 container03">
-      <div class="container titlePadding">
+      <div
+        class="container titlePadding"
+        data-aos="fade-down"
+        data-aos-duration="1500"
+      >
         <p class="h5" id="launchComing">MISSÃO CONCLUIDA</p>
 
         <p class="h1 shortTitle">DRAGON RETORNOU PARA A TERRA</p>
@@ -108,7 +121,11 @@
     </div>
 
     <div class="container-fluid container00 container04">
-      <div class="container titlePadding">
+      <div
+        class="container titlePadding"
+        data-aos="fade-down-right"
+        data-aos-duration="1500"
+      >
         <p class="h1 mediumTitle">STARSHIP POUSA ASTRONAUTAS DA NASA NA LUA</p>
 
         <button type="button" class="btn btn-outline-light mt-5" id="button">
@@ -129,5 +146,9 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

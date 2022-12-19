@@ -86,28 +86,6 @@
   background-color: #000000;
 }
 
-.downloadDesc {
-  background-color: #000000;
-  height: 85vh;
-  padding-top: 240px;
-
-  a {
-    color: #ffffff;
-    border-bottom: 2px solid #ffffff;
-    text-decoration: none;
-
-    &:hover {
-      color: $link-hover;
-      border-bottom: 2px solid $link-hover;
-    }
-  }
-
-  button {
-    border: solid 2px #ffffff;
-    margin-right: 10px;
-  }
-}
-
 @media (max-width: 768px) {
   .numbers {
     .titleNumb {

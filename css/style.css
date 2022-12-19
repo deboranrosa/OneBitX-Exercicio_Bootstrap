@@ -35,6 +35,26 @@
   padding: 15px 35px;
 }
 
+.downloadDesc {
+  background-color: #000000;
+  height: 85vh;
+  padding-top: 240px;
+}
+.downloadDesc button {
+  border: solid 2px #ffffff;
+  margin-right: 10px;
+}
+
+.emailDBR {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  text-decoration: none;
+}
+.emailDBR:hover {
+  color: #b9b9b9;
+  border-bottom: 2px solid #b9b9b9;
+}
+
 .footer {
   align-items: center;
   background-color: #000000;
@@ -198,25 +218,6 @@
   background-color: #000000;
 }
 
-.downloadDesc {
-  background-color: #000000;
-  height: 85vh;
-  padding-top: 240px;
-}
-.downloadDesc a {
-  color: #ffffff;
-  border-bottom: 2px solid #ffffff;
-  text-decoration: none;
-}
-.downloadDesc a:hover {
-  color: #b9b9b9;
-  border-bottom: 2px solid #b9b9b9;
-}
-.downloadDesc button {
-  border: solid 2px #ffffff;
-  margin-right: 10px;
-}
-
 @media (max-width: 768px) {
   .numbers .titleNumb {
     font-size: 80px;
@@ -250,6 +251,110 @@
   .falcon9Desc {
     font-size: 18px;
     line-height: auto;
+  }
+}
+.container00.container08 {
+  background-image: url(../../assets/humanFlight-20221215T131402Z-001/humanFlight/01.jpg);
+}
+.container00.container09 {
+  background-image: url(../../assets/humanFlight-20221215T131402Z-001/humanFlight/02.jpg);
+}
+.container00.container10 {
+  background-image: url(../../assets/humanFlight-20221215T131402Z-001/humanFlight/03.jpg);
+}
+.container00.container11 {
+  background-image: url(../../assets/humanFlight-20221215T131402Z-001/humanFlight/04.jpg);
+}
+.container00.container12 {
+  background-image: url(../../assets/humanFlight-20221215T131402Z-001/humanFlight/05.jpg);
+}
+
+.container01Content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: center;
+}
+.container01Content .titleHuman {
+  font-size: 120px;
+}
+.container01Content .subtitleHuman {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.earthDesc {
+  align-items: center;
+  background-color: #000000;
+  display: flex;
+  height: 25vh;
+  justify-content: center;
+}
+.earthDesc .textDescriptionEarth {
+  color: #d8d8d8;
+  font-size: 20px;
+  font-weight: 400;
+  width: 800px;
+}
+
+.containerRightContent {
+  margin-left: 55%;
+  padding-top: 15%;
+}
+
+.containerLeftContent {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+.titleSession {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.subtitleSession {
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .container01Content .titleHuman {
+    font-size: 90px;
+  }
+  .containerRightContent,
+  .containerLeftContent {
+    margin-left: 15%;
+  }
+  .earthDesc .textDescriptionEarth {
+    font-size: 18px;
+    font-weight: 400;
+    width: auto;
+  }
+}
+@media (max-width: 610px) {
+  .container01Content .titleHuman {
+    font-size: 60px;
+  }
+  .container01Content .subtitleHuman {
+    font-size: 24px;
+  }
+  .containerRightContent,
+  .containerLeftContent {
+    margin-left: 5%;
+  }
+  .titleSession {
+    font-size: 50px;
+  }
+}
+@media (max-width: 375px) {
+  .container01Content .titleHuman {
+    font-size: 40px;
+  }
+  .container01Content img {
+    width: 100px;
   }
 }
 

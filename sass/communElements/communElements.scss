@@ -33,6 +33,27 @@
   padding: $padding-button;
 }
 
+.downloadDesc {
+  background-color: #000000;
+  height: 85vh;
+  padding-top: 240px;
+
+  button {
+    border: solid 2px #ffffff;
+    margin-right: 10px;
+  }
+}
+.emailDBR {
+  color: #ffffff;
+  border-bottom: 2px solid #ffffff;
+  text-decoration: none;
+
+  &:hover {
+    color: $link-hover;
+    border-bottom: 2px solid $link-hover;
+  }
+}
+
 .footer {
   align-items: center;
   background-color: #000000;
